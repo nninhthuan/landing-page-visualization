@@ -1,0 +1,6 @@
+@import "/css/variables.css";
+@import "/css/nav-bar.css";
+
+body {
+  background-color: var(--light-cream);
+}
