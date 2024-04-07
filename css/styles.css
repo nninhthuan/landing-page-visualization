@@ -1,5 +1,7 @@
 @import "/css/variables.css";
 @import "/css/nav-bar.css";
+@import "/css/header.css";
+@import "/css/header-side-effect.css";
 
 body {
   background-color: var(--light-cream);

@@ -1,0 +1,18 @@
+.header-container .path-to-banner {
+  height: 70%;
+  position: absolute;
+  top: 0px;
+}
+.header-container .astronaut {
+  width: 141px;
+  height: 234px;
+  position: relative;
+  top: -118px;
+  left: 17px;
+}
+.header-container .banner-btn {
+  width: 90px;
+  height: 60px;
+  position: absolute;
+  bottom: -100px;
+}
