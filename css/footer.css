@@ -1,0 +1,64 @@
+footer {
+  margin: -8px;
+}
+.footer-container {
+  padding-top: 12px;
+  padding-bottom: 15px;
+  background-color: #000;
+}
+#download-text {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 15px;
+}
+#download-text p {
+  color: var(--light-cream);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: auto;
+  height: 20px;
+  letter-spacing: 0.5px;
+}
+#download-text .platform a img {
+  margin-right: 25px;
+}
+#download-text .platform .microsoft img {
+  width: 138px;
+  height: 50px;
+}
+#download-text .platform .appstore img {
+  width: 138px;
+  height: 50px;
+}
+#download-text .platform .soc-cpa img {
+  width: 55px;
+  height: 53px;
+}
+#download-text .platform .chrome img {
+  width: 138px;
+  height: 50px;
+}
+#copyright {
+  padding: 10px;
+  background-color: #222222;
+  margin-bottom: -15px;
+}
+#copyright .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+#copyright .container .txt small {
+  color: aliceblue;
+  font-size: 15px;
+}
+#copyright .container .to-the-top small a {
+  color: snow;
+  opacity: 0.5;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: serif;
+  text-decoration: none;
+}

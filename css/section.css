@@ -1,0 +1,85 @@
+#section-1 .what-is-cs {
+  float: right;
+  width: 53.5%;
+  height: 97%;
+}
+
+#section-1 {
+  position: relative;
+}
+#section-1 .section-container{
+  width: 40%;
+  position: absolute;
+  top: 100px;
+}
+
+#section-1 .leaf-1 {
+  width: 234px;
+  height: 264px;
+  position: absolute;
+  top: 80px;
+  left: -40px;
+  transform: translate(-15%, 110%); 
+}
+.sub-heading {
+  margin-left: 150px;
+}
+.sub-heading .cs-para {
+  font-size: 18px;
+  font-family: "system-ui";
+  font-weight: 300;
+  color: #000000;
+  z-index: 2;
+  position: relative;
+  text-transform: none !important;
+  letter-spacing: 0px !important;
+  line-height: 30px;
+}
+
+.sub-heading .what-is-cleverstory {
+  font-size: 36px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#section-2 {
+  position: relative;
+  margin-top: 110px;
+  margin-left: 150px;
+  display: flex;
+}
+#section-2 .interactive-experience {
+  width: 46.4%;
+  height: 93%;
+}
+.cs-subheading {
+  font-size: 36px;
+  font-family: "ui-monospace";
+  color: #000;
+  font-weight: 800;
+}
+.interactive-content-txt {
+  font-style: italic;
+  font-weight: 900;
+}
+.book-a-demo-btn {
+  width: fit-content;
+  padding: 5px 10px;
+  background-color: var(--dark-orange);
+  border-radius: 15px;
+  
+}
+.cta-btn {
+  color: #000;
+  opacity: 0.5;
+  text-decoration: none;
+}
+#section-3 {
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-bottom: 60px;
+  display: flex;
+}
+.launch {
+  width: 59%;
+  height: 84.6%;
+}
