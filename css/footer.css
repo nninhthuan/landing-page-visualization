@@ -53,7 +53,7 @@ footer {
   color: aliceblue;
   font-size: 15px;
 }
-#copyright .container .to-the-top small a {
+#copyright .container .to-the-top small {
   color: snow;
   opacity: 0.5;
   font-size: 15px;
@@ -61,4 +61,5 @@ footer {
   letter-spacing: 1px;
   font-family: serif;
   text-decoration: none;
+  cursor: default;
 }

@@ -32,7 +32,7 @@
 .interactive-content {
   color: var(--txt-dark-orange);
   font-size: 141px;
-  width: 52%;
+  max-width: 800px;
   font-weight: 900;
   line-height: 0.8em;
   text-align: center;

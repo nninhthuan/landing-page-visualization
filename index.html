@@ -12,7 +12,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/styles.css" type="text/css"></link>
-  <script src="js/app.js"></script>
 </head>
 
 <body>
@@ -22,12 +21,7 @@
         <img src="/imgs/logo-header.png" alt="logo-header"/>
       </div>
       <div class="navbar-wrapper">
-        <ul>
-          <li class="navbar-item"><a href="">Products</a></li>
-          <li class="navbar-item"><a href="">Features</a></li>
-          <li class="navbar-item"><a href="">Pricing</a></li>
-          <li class="navbar-item"><a href="">Blog</a></li>
-        </ul>
+        <ul></ul>
       </div>
     </nav>
     <div class="user-authertication">
@@ -36,16 +30,16 @@
       <div class="request-demo">request demo</div>
     </div>
   </div>
-  <div id="header">
+  <div id="header" data-content="header">
     <header class="header-container">
       <img src="/imgs/header-logo.png" alt="header-logo" class="header-logo">
       <h2 class="hello-world">hello world</h2>
       <div class="header-description">
         <p class="meet"><b>Meet</b></p>
-        <p class="interactive-content">interactive <br> content</p>
+        <p class="interactive-content">interactive content</p>
         <div class="text">
-          <p><b>The no-code <br> content creation software</b></p>
-          <p class="sub-txt">to build captivating <br> experiences</p>
+          <p><b>The no-code content creation software</b></p>
+          <p class="sub-txt">to build captivating experiences</p>
         </div>
       </div>
       <img src="/imgs/path-to-banner.png" alt="path-to-banner" class="path-to-banner">
@@ -53,7 +47,7 @@
       <img src="/imgs/banner-btn.png" alt="banner-btn" class="banner-btn">
     </header>
   </div>
-  <div id="section-1">
+  <div id="section-1" data-content="section-1">
     <img src="imgs/leaf-1.png" alt="leaf" class="leaf-1">
     <section class="section-container">
       <div class="sub-heading">
@@ -66,7 +60,7 @@
     </section>
     <img src="/imgs/what-is-cs.png" alt="what-is-cs" class="what-is-cs">
   </div>
-  <div id="section-2">
+  <div id="section-2" data-content="section-2" >
     <img src="imgs/interactive-experience.png" alt="interactive-experience" class="interactive-experience">
     <section class="section-container">
       <div class="sub-heading">
@@ -78,7 +72,7 @@
       </div>
     </section>
   </div>
-  <div id="section-3">
+  <div id="section-3"  data-content="section-3">
     <img src="imgs/launch.png" alt="launch" class="launch">
     <section class="section-container">
       <div class="sub-heading">
@@ -114,10 +108,11 @@
             <small>&copy; <span id="copy-right-year">2024</span> Paperflite</small>
           </div>
           <div class="to-the-top">
-            <small><a href="#nav-bar" class="pull-right">To the top</a></small>
+            <small id="to-the-top">To the top</small>
           </div>
         </div>
       </div>
     </div>
   </footer>
+  <script src="js/app.js"></script>
 </body>
