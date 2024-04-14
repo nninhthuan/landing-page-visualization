@@ -9,4 +9,155 @@ body {
   background-color: var(--light-cream);
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--dark-orange);
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    margin: -8px;
+    width: fit-content;
+  }
+  #nav-bar {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 5px 30px 0px 0px;
+  }
+  #nav-bar .naviation-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .navbar-wrapper ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .navbar-wrapper ul li {
+    margin: 0;
+  }
+  .navbar-item {
+    margin: auto;
+    text-align: center;
+  }
+
+  .naviation-container .logo-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+  }
+
+  #nav-bar .user-authertication {
+    display: flex;
+    justify-content: center;
+    :nth-child(n+1) {
+      margin-right: 5px;
+    }
+  }
+
+  .header-container .hello-world {
+    font-size: 30px;
+  }
+  .header-container .header-description {
+    display: block;
+    margin-left: 0px;
+  }
+
+  .header-container .header-description .meet {
+    font-size: 20px;
+    margin-right: 0px;
+    text-align: center;
+  }
+  .header-container .header-description .interactive-content {
+    font-size: 30px;
+  }
+  .header-container .header-description .text {
+    position: static;
+  }
+  .header-container img {
+    display: none;
+  }
+
+  #section-1 .section-container {
+    position: relative;
+  }
+  #section-1 img {
+    opacity: 0.3;
+  }
+  #section-2, #section-3 {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: block; 
+
+  }
+  .sub-heading {
+    margin-left: 20px;
+    width: max-content;
+    margin-right: 20px;
+    margin-bottom: 25px;
+  }
+  .cs-para {
+    width: 50vh;
+    font-weight: 800;
+  }
+  #download-text {
+    flex-direction: column;
+    padding-left: 30px;
+  }
+  #download-text .platform .soc-cpa {
+    margin-right: 83px;
+  }
+}
+@media (min-width: 651px) and (max-width: 1200px) {
+  body {
+    margin: -8px;
+  }
+  #nav-bar {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .naviation-container {
+    justify-content: center;
+  }
+
+  .header-description {
+    display: contents;
+  }
+  .header-container .astronaut {
+    top: 30px;
+    left: 30px;
+  }
+
+  .header-description .text p {
+    position: relative;
+    top: -100px;
+  }
+  #section-1 .section-container {
+    width: 45%;
+    top: 0;
+    margin-left: 17px;
+  }
+  #section-1 .leaf-1 {
+    opacity: 0.3;
+  }
+
+  .sub-heading {
+    margin-left: 5px;
+  }
+  #section-3 {
+    margin-left: 0;
+  }
+  #section-3 .section-container {
+    margin-left: 5px;
+  }
 }

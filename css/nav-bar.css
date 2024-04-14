@@ -17,6 +17,11 @@
   height: 35px;
   padding-top: 5px;
 }
+/* .navbar-wrapper {
+  position: fixed;
+  height: auto;
+  z-index: 100;
+} */
 
 .navbar-wrapper ul {
   display: flex;
@@ -24,12 +29,11 @@
 
 .navbar-wrapper ul li {
   list-style-type: none;
-  padding-right: 25px;
+  margin-right: 25px;
   font-size: 13px;
   text-transform: uppercase;
   font-family: var(--font-helvetica);
-}
-.navbar-wrapper ul li a {
+  padding: 5px;
   text-decoration: none;
   color: var(--dark-grey);
   letter-spacing: 1.4px;
@@ -37,6 +41,16 @@
 
   &:hover {
     color: red;
+    cursor: pointer;
+  }
+}
+.navbar-wrapper ul .navbar-item-active {
+  color: snow;
+  background-color: #818F99;
+  border-radius: 10px;
+  &:hover {
+    color: snow;
+    cursor: pointer;
   }
 }
 
