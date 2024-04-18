@@ -1,9 +1,9 @@
-@import "/css/variables.css";
-@import "/css/nav-bar.css";
-@import "/css/header.css";
-@import "/css/header-side-effect.css";
-@import "/css/section.css";
-@import "/css/footer.css";
+@import "../css/variables.css";
+@import "../css/nav-bar.css";
+@import "../css/header.css";
+@import "../css/header-side-effect.css";
+@import "../css/section.css";
+@import "../css/footer.css";
 
 body {
   background-color: var(--light-cream);
@@ -53,7 +53,7 @@ body {
   .naviation-container .logo-header {
     display: flex;
     justify-content: center;
-    margin-top: 18px;
+    margin-top: 700px;
   }
 
   #nav-bar .user-authertication {
@@ -125,9 +125,16 @@ body {
   #nav-bar {
     display: flex;
     flex-direction: column-reverse;
+    margin-top: 500px;
   }
   .naviation-container {
     justify-content: center;
+  }
+  .navbar-wrapper ul {
+    left: 0;
+    background-color: snow;
+    width: fit-content;
+    border-radius: 10px;
   }
 
   .header-description {
@@ -159,5 +166,12 @@ body {
   }
   #section-3 .section-container {
     margin-left: 5px;
+  }
+}
+@media (min-width: 1201px) {
+  .navbar-wrapper ul {
+    background-color: snow;
+    width: fit-content;
+    border-radius: 10px;
   }
 }
