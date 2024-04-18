@@ -18,7 +18,6 @@ for (let i = 0; i < itemNavigationBar.length; i++) {
 
 // Declare function when clicking on each item in navigation bar
 function onClickItem(event) {
-  event.preventDefault();
   let section, content, location;
   let getNavbarItemActive = ulContainer.querySelectorAll('.navbar-item-active');
 
@@ -43,14 +42,13 @@ function onClickItem(event) {
       //content = section.getAttribute('data-content');
       location = section.getBoundingClientRect();
 
-      window.scrollTo({
-        top: location.y,
+      window.scrollBy({
         left: location.x,
+        top: location.y,
         behavior: 'smooth'
       });
     }
   }
-
 }
 // Click on each particular on item
 const navBarItem = document.querySelectorAll('.navbar-item');
